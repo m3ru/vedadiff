@@ -361,6 +361,16 @@ document.addEventListener("DOMContentLoaded", () => {
     loadDiff(e.target.value);
   });
 
+  // Dual/single layout toggle
+  document.getElementById("dual-layout-toggle").addEventListener("click", () => {
+    const btn = document.getElementById("dual-layout-toggle");
+    const panes = document.querySelector("#dual-view .dual-panes");
+    const devaPane = document.getElementById("deva-pane");
+    const isSingle = panes.classList.toggle("single-pane");
+    devaPane.classList.toggle("hidden", isSingle);
+    btn.textContent = isSingle ? "Dual Script" : "IAST Only";
+  });
+
   // Script toggle in diff view
   document.getElementById("script-toggle").addEventListener("click", () => {
     const btn = document.getElementById("script-toggle");

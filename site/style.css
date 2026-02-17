@@ -96,6 +96,9 @@ nav { display: flex; gap: 0.5rem; }
   overflow: hidden;
 }
 
+.dual-panes.single-pane { grid-template-columns: 1fr; }
+.dual-panes.single-pane > .pane.hidden { display: none; }
+
 .pane {
   display: flex;
   flex-direction: column;
