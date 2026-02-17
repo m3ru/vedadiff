@@ -141,7 +141,7 @@ The diff view highlights genuine textual differences, including:
 ### HTML
 
 Single page, two `<section>` elements toggled by nav buttons:
-- `#dual-view` — text selector dropdown, two panes (Devanagari / IAST)
+- `#dual-view` — text selector dropdown, dual/single layout toggle button, two panes (Devanagari / IAST). The "IAST Only" button hides the Devanagari pane and switches to a single-column layout.
 - `#diff-view` — comparison selector, script toggle button, two panes (left / right recension)
 
 ### CSS (168 lines)
