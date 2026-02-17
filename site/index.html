@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VedaDiff — Purusha Sūktam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>VedaDiff</h1>
+    <nav>
+      <button class="nav-btn active" data-view="dual">Dual Script</button>
+      <button class="nav-btn" data-view="diff">Recension Diff</button>
+    </nav>
+  </header>
+
+  <section id="dual-view" class="view active">
+    <div class="view-header">
+      <label for="text-select">Text:</label>
+      <select id="text-select">
+        <option value="rv10-090">Ṛg Veda 10.90</option>
+        <option value="ta3-012">Taittirīya Āraṇyaka 3.12–13</option>
+      </select>
+    </div>
+    <div class="dual-panes">
+      <div class="pane" id="deva-pane">
+        <h2>Devanāgarī</h2>
+        <div class="pane-content" id="deva-content"></div>
+      </div>
+      <div class="pane" id="iast-pane">
+        <h2>IAST</h2>
+        <div class="pane-content" id="iast-content"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="diff-view" class="view">
+    <div class="view-header">
+      <label for="diff-select">Comparison:</label>
+      <select id="diff-select">
+        <option value="purusha-suktam">Purusha Sūktam</option>
+      </select>
+      <button id="script-toggle" class="toggle-btn">Show Devanāgarī</button>
+    </div>
+    <div class="dual-panes">
+      <div class="pane" id="diff-left-pane">
+        <h2 id="diff-left-label">Left</h2>
+        <div class="pane-content" id="diff-left-content"></div>
+      </div>
+      <div class="pane" id="diff-right-pane">
+        <h2 id="diff-right-label">Right</h2>
+        <div class="pane-content" id="diff-right-content"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1395 @@
+{
+  "id": "ta3-012",
+  "title": "Puruṣa Sūktam (Taittirīya Āraṇyaka 3.12–13)",
+  "source": "SanskritDocuments.org",
+  "verses": [
+    {
+      "number": "3.12.33a",
+      "devanagari": "स॒हस्र॑शीर्षा॒ पुरु॑षः । स॒ह॒स्रा॒क्षस्स॒हस्र॑पात् । स भूमि॑ं वि॒श्वतो॑ वृ॒त्वा । अत्य॑तिष्ठद्दशाङ्गु॒लम्",
+      "iast": "sa॒hasra॑śīrṣā॒ puru॑ṣaḥ | sa॒ha॒srā॒kṣassa॒hasra॑pāt | sa bhūmi॑ṃ vi॒śvato॑ vṛ॒tvā | atya॑tiṣṭhaddaśāṅgu॒lam",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "स॒हस्र॑शीर्षा॒",
+          "iast": "sa॒hasra॑śīrṣā॒"
+        },
+        {
+          "idx": 1,
+          "devanagari": "पुरु॑षः",
+          "iast": "puru॑ṣaḥ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "स॒ह॒स्रा॒क्षस्स॒हस्र॑पात्",
+          "iast": "sa॒ha॒srā॒kṣassa॒hasra॑pāt"
+        },
+        {
+          "idx": 3,
+          "devanagari": "स",
+          "iast": "sa"
+        },
+        {
+          "idx": 4,
+          "devanagari": "भूमि॑ं",
+          "iast": "bhūmi॑ṃ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "वि॒श्वतो॑",
+          "iast": "vi॒śvato॑"
+        },
+        {
+          "idx": 6,
+          "devanagari": "वृ॒त्वा",
+          "iast": "vṛ॒tvā"
+        },
+        {
+          "idx": 7,
+          "devanagari": "अत्य॑तिष्ठद्दशाङ्गु॒लम्",
+          "iast": "atya॑tiṣṭhaddaśāṅgu॒lam"
+        }
+      ]
+    },
+    {
+      "number": "3.12.33b",
+      "devanagari": "पुरु॑ष ए॒वेदं सर्व᳚म् । यद्भू॒तं यच्च॒ भव्य᳚म् । उ॒तामृ॑त॒त्वस्येशा॑नः । य॒दन्ने॑नाति॒रोह॑ति",
+      "iast": "puru॑ṣa e॒vedaṃ sarva᳚m | yadbhū॒taṃ yacca॒ bhavya᳚m | u॒tāmṛ॑ta॒tvasyeśā॑naḥ | ya॒danne॑nāti॒roha॑ti",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "पुरु॑ष",
+          "iast": "puru॑ṣa"
+        },
+        {
+          "idx": 1,
+          "devanagari": "ए॒वेदं",
+          "iast": "e॒vedaṃ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "सर्व᳚म्",
+          "iast": "sarva᳚m"
+        },
+        {
+          "idx": 3,
+          "devanagari": "यद्भू॒तं",
+          "iast": "yadbhū॒taṃ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "यच्च॒",
+          "iast": "yacca॒"
+        },
+        {
+          "idx": 5,
+          "devanagari": "भव्य᳚म्",
+          "iast": "bhavya᳚m"
+        },
+        {
+          "idx": 6,
+          "devanagari": "उ॒तामृ॑त॒त्वस्येशा॑नः",
+          "iast": "u॒tāmṛ॑ta॒tvasyeśā॑naḥ"
+        },
+        {
+          "idx": 7,
+          "devanagari": "य॒दन्ने॑नाति॒रोह॑ति",
+          "iast": "ya॒danne॑nāti॒roha॑ti"
+        }
+      ]
+    },
+    {
+      "number": "3.12.33c",
+      "devanagari": "ए॒तावा॑नस्य महि॒मा । अतो॒ ज्याया॑ग्श्च॒ पूरु॑षः । पादो᳚ऽस्य विश्वा॑ भू॒तानि॑ । त्रि॒पाद॑स्या॒मृत॑ं दि॒वि",
+      "iast": "e॒tāvā॑nasya mahi॒mā | ato॒ jyāyā॑gśca॒ pūru॑ṣaḥ | pādo᳚'sya viśvā॑ bhū॒tāni॑ | tri॒pāda॑syā॒mṛta॑ṃ di॒vi",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "ए॒तावा॑नस्य",
+          "iast": "e॒tāvā॑nasya"
+        },
+        {
+          "idx": 1,
+          "devanagari": "महि॒मा",
+          "iast": "mahi॒mā"
+        },
+        {
+          "idx": 2,
+          "devanagari": "अतो॒",
+          "iast": "ato॒"
+        },
+        {
+          "idx": 3,
+          "devanagari": "ज्याया॑ग्श्च॒",
+          "iast": "jyāyā॑gśca॒"
+        },
+        {
+          "idx": 4,
+          "devanagari": "पूरु॑षः",
+          "iast": "pūru॑ṣaḥ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "पादो᳚ऽस्य",
+          "iast": "pādo᳚'sya"
+        },
+        {
+          "idx": 6,
+          "devanagari": "विश्वा॑",
+          "iast": "viśvā॑"
+        },
+        {
+          "idx": 7,
+          "devanagari": "भू॒तानि॑",
+          "iast": "bhū॒tāni॑"
+        },
+        {
+          "idx": 8,
+          "devanagari": "त्रि॒पाद॑स्या॒मृत॑ं",
+          "iast": "tri॒pāda॑syā॒mṛta॑ṃ"
+        },
+        {
+          "idx": 9,
+          "devanagari": "दि॒वि",
+          "iast": "di॒vi"
+        }
+      ]
+    },
+    {
+      "number": "3.12.34a",
+      "devanagari": "त्रि॒पादू॒र्ध्व उदै॒त्पुरु॑षः । पादो᳚ऽस्येहा॒भवा॑त्पु॒नः । ततो॒ विश्व॒ङ्व्य॑क्रामत् । सा॒श॒ना॒न॒श॒ने अ॒भि",
+      "iast": "tri॒pādū॒rdhva udai॒tpuru॑ṣaḥ | pādo᳚'syehā॒bhavā॑tpu॒naḥ | tato॒ viśva॒ṅvya॑krāmat | sā॒śa॒nā॒na॒śa॒ne a॒bhi",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "त्रि॒पादू॒र्ध्व",
+          "iast": "tri॒pādū॒rdhva"
+        },
+        {
+          "idx": 1,
+          "devanagari": "उदै॒त्पुरु॑षः",
+          "iast": "udai॒tpuru॑ṣaḥ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "पादो᳚ऽस्येहा॒भवा॑त्पु॒नः",
+          "iast": "pādo᳚'syehā॒bhavā॑tpu॒naḥ"
+        },
+        {
+          "idx": 3,
+          "devanagari": "ततो॒",
+          "iast": "tato॒"
+        },
+        {
+          "idx": 4,
+          "devanagari": "विश्व॒ङ्व्य॑क्रामत्",
+          "iast": "viśva॒ṅvya॑krāmat"
+        },
+        {
+          "idx": 5,
+          "devanagari": "सा॒श॒ना॒न॒श॒ने",
+          "iast": "sā॒śa॒nā॒na॒śa॒ne"
+        },
+        {
+          "idx": 6,
+          "devanagari": "अ॒भि",
+          "iast": "a॒bhi"
+        }
+      ]
+    },
+    {
+      "number": "3.12.34b",
+      "devanagari": "तस्मा᳚द्वि॒राड॑जायत । वि॒राजो॒ अधि॒ पूरु॑षः । स जा॒तो अत्य॑रिच्यत । प॒श्चाद्भूमि॒मथो॑ पु॒रः",
+      "iast": "tasmā᳚dvi॒rāḍa॑jāyata | vi॒rājo॒ adhi॒ pūru॑ṣaḥ | sa jā॒to atya॑ricyata | pa॒ścādbhūmi॒matho॑ pu॒raḥ",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तस्मा᳚द्वि॒राड॑जायत",
+          "iast": "tasmā᳚dvi॒rāḍa॑jāyata"
+        },
+        {
+          "idx": 1,
+          "devanagari": "वि॒राजो॒",
+          "iast": "vi॒rājo॒"
+        },
+        {
+          "idx": 2,
+          "devanagari": "अधि॒",
+          "iast": "adhi॒"
+        },
+        {
+          "idx": 3,
+          "devanagari": "पूरु॑षः",
+          "iast": "pūru॑ṣaḥ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "स",
+          "iast": "sa"
+        },
+        {
+          "idx": 5,
+          "devanagari": "जा॒तो",
+          "iast": "jā॒to"
+        },
+        {
+          "idx": 6,
+          "devanagari": "अत्य॑रिच्यत",
+          "iast": "atya॑ricyata"
+        },
+        {
+          "idx": 7,
+          "devanagari": "प॒श्चाद्भूमि॒मथो॑",
+          "iast": "pa॒ścādbhūmi॒matho॑"
+        },
+        {
+          "idx": 8,
+          "devanagari": "पु॒रः",
+          "iast": "pu॒raḥ"
+        }
+      ]
+    },
+    {
+      "number": "3.12.35a",
+      "devanagari": "यत्पुरु॑षेण ह॒विषा᳚ । दे॒वा य॒ज्ञमत॑न्वत । व॒स॒न्तो अ॑स्यासी॒दाज्य᳚म् । ग्री॒ष्म इ॒ध्मः श॒रद्ध॒विः",
+      "iast": "yatpuru॑ṣeṇa ha॒viṣā᳚ | de॒vā ya॒jñamata॑nvata | va॒sa॒nto a॑syāsī॒dājya᳚m | grī॒ṣma i॒dhmaḥ śa॒raddha॒viḥ",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "यत्पुरु॑षेण",
+          "iast": "yatpuru॑ṣeṇa"
+        },
+        {
+          "idx": 1,
+          "devanagari": "ह॒विषा᳚",
+          "iast": "ha॒viṣā᳚"
+        },
+        {
+          "idx": 2,
+          "devanagari": "दे॒वा",
+          "iast": "de॒vā"
+        },
+        {
+          "idx": 3,
+          "devanagari": "य॒ज्ञमत॑न्वत",
+          "iast": "ya॒jñamata॑nvata"
+        },
+        {
+          "idx": 4,
+          "devanagari": "व॒स॒न्तो",
+          "iast": "va॒sa॒nto"
+        },
+        {
+          "idx": 5,
+          "devanagari": "अ॑स्यासी॒दाज्य᳚म्",
+          "iast": "a॑syāsī॒dājya᳚m"
+        },
+        {
+          "idx": 6,
+          "devanagari": "ग्री॒ष्म",
+          "iast": "grī॒ṣma"
+        },
+        {
+          "idx": 7,
+          "devanagari": "इ॒ध्मः",
+          "iast": "i॒dhmaḥ"
+        },
+        {
+          "idx": 8,
+          "devanagari": "श॒रद्ध॒विः",
+          "iast": "śa॒raddha॒viḥ"
+        }
+      ]
+    },
+    {
+      "number": "3.12.35b",
+      "devanagari": "स॒प्तास्या॑सन्परि॒धय॑ः । त्रिस्स॒प्त स॒मिध॑ः कृ॒ताः । दे॒वा यद्य॒ज्ञं त॑न्वा॒नाः । अब॑ध्न॒न्पुरु॑षं प॒शुम्",
+      "iast": "sa॒ptāsyā॑sanpari॒dhaya॑ḥ | trissa॒pta sa॒midha॑ḥ kṛ॒tāḥ | de॒vā yadya॒jñaṃ ta॑nvā॒nāḥ | aba॑dhna॒npuru॑ṣaṃ pa॒śum",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "स॒प्तास्या॑सन्परि॒धय॑ः",
+          "iast": "sa॒ptāsyā॑sanpari॒dhaya॑ḥ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "त्रिस्स॒प्त",
+          "iast": "trissa॒pta"
+        },
+        {
+          "idx": 2,
+          "devanagari": "स॒मिध॑ः",
+          "iast": "sa॒midha॑ḥ"
+        },
+        {
+          "idx": 3,
+          "devanagari": "कृ॒ताः",
+          "iast": "kṛ॒tāḥ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "दे॒वा",
+          "iast": "de॒vā"
+        },
+        {
+          "idx": 5,
+          "devanagari": "यद्य॒ज्ञं",
+          "iast": "yadya॒jñaṃ"
+        },
+        {
+          "idx": 6,
+          "devanagari": "त॑न्वा॒नाः",
+          "iast": "ta॑nvā॒nāḥ"
+        },
+        {
+          "idx": 7,
+          "devanagari": "अब॑ध्न॒न्पुरु॑षं",
+          "iast": "aba॑dhna॒npuru॑ṣaṃ"
+        },
+        {
+          "idx": 8,
+          "devanagari": "प॒शुम्",
+          "iast": "pa॒śum"
+        }
+      ]
+    },
+    {
+      "number": "3.12.35c",
+      "devanagari": "तं य॒ज्ञं ब॒र्हिषि॒ प्रौक्ष॑न्न् । पुरु॑षं जा॒तम॑ग्र॒तः । तेन॑ दे॒वा अय॑जन्त । सा॒ध्या ऋष॑यश्च॒ ये",
+      "iast": "taṃ ya॒jñaṃ ba॒rhiṣi॒ praukṣa॑nn | puru॑ṣaṃ jā॒tama॑gra॒taḥ | tena॑ de॒vā aya॑janta | sā॒dhyā ṛṣa॑yaśca॒ ye",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तं",
+          "iast": "taṃ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "य॒ज्ञं",
+          "iast": "ya॒jñaṃ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "ब॒र्हिषि॒",
+          "iast": "ba॒rhiṣi॒"
+        },
+        {
+          "idx": 3,
+          "devanagari": "प्रौक्ष॑न्न्",
+          "iast": "praukṣa॑nn"
+        },
+        {
+          "idx": 4,
+          "devanagari": "पुरु॑षं",
+          "iast": "puru॑ṣaṃ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "जा॒तम॑ग्र॒तः",
+          "iast": "jā॒tama॑gra॒taḥ"
+        },
+        {
+          "idx": 6,
+          "devanagari": "तेन॑",
+          "iast": "tena॑"
+        },
+        {
+          "idx": 7,
+          "devanagari": "दे॒वा",
+          "iast": "de॒vā"
+        },
+        {
+          "idx": 8,
+          "devanagari": "अय॑जन्त",
+          "iast": "aya॑janta"
+        },
+        {
+          "idx": 9,
+          "devanagari": "सा॒ध्या",
+          "iast": "sā॒dhyā"
+        },
+        {
+          "idx": 10,
+          "devanagari": "ऋष॑यश्च॒",
+          "iast": "ṛṣa॑yaśca॒"
+        },
+        {
+          "idx": 11,
+          "devanagari": "ये",
+          "iast": "ye"
+        }
+      ]
+    },
+    {
+      "number": "3.12.36a",
+      "devanagari": "तस्मा᳚द्य॒ज्ञाथ्स॑र्व॒हुत॑ः । संभृ॑तं पृषदा॒ज्यम् । प॒शूग्स्ताग्श्च॑क्रे वाय॒व्या॑न् । आ॒र॒ण्यान्ग्रा॒म्याश्च॒ ये",
+      "iast": "tasmā᳚dya॒jñāthsa॑rva॒huta॑ḥ | saṃbhṛ॑taṃ pṛṣadā॒jyam | pa॒śūgstāgśca॑kre vāya॒vyā॑n | ā॒ra॒ṇyāngrā॒myāśca॒ ye",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तस्मा᳚द्य॒ज्ञाथ्स॑र्व॒हुत॑ः",
+          "iast": "tasmā᳚dya॒jñāthsa॑rva॒huta॑ḥ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "संभृ॑तं",
+          "iast": "saṃbhṛ॑taṃ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "पृषदा॒ज्यम्",
+          "iast": "pṛṣadā॒jyam"
+        },
+        {
+          "idx": 3,
+          "devanagari": "प॒शूग्स्ताग्श्च॑क्रे",
+          "iast": "pa॒śūgstāgśca॑kre"
+        },
+        {
+          "idx": 4,
+          "devanagari": "वाय॒व्या॑न्",
+          "iast": "vāya॒vyā॑n"
+        },
+        {
+          "idx": 5,
+          "devanagari": "आ॒र॒ण्यान्ग्रा॒म्याश्च॒",
+          "iast": "ā॒ra॒ṇyāngrā॒myāśca॒"
+        },
+        {
+          "idx": 6,
+          "devanagari": "ये",
+          "iast": "ye"
+        }
+      ]
+    },
+    {
+      "number": "3.12.36b",
+      "devanagari": "तस्मा᳚द्य॒ज्ञाथ्स॑र्व॒हुत॑ः । ऋच॒स्सामा॑नि जज्ञिरे । छन्दा॑ंसि जज्ञिरे॒ तस्मा᳚त् । यजु॒स्तस्मा॑दजायत",
+      "iast": "tasmā᳚dya॒jñāthsa॑rva॒huta॑ḥ | ṛca॒ssāmā॑ni jajñire | chandā॑ṃsi jajñire॒ tasmā᳚t | yaju॒stasmā॑dajāyata",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तस्मा᳚द्य॒ज्ञाथ्स॑र्व॒हुत॑ः",
+          "iast": "tasmā᳚dya॒jñāthsa॑rva॒huta॑ḥ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "ऋच॒स्सामा॑नि",
+          "iast": "ṛca॒ssāmā॑ni"
+        },
+        {
+          "idx": 2,
+          "devanagari": "जज्ञिरे",
+          "iast": "jajñire"
+        },
+        {
+          "idx": 3,
+          "devanagari": "छन्दा॑ंसि",
+          "iast": "chandā॑ṃsi"
+        },
+        {
+          "idx": 4,
+          "devanagari": "जज्ञिरे॒",
+          "iast": "jajñire॒"
+        },
+        {
+          "idx": 5,
+          "devanagari": "तस्मा᳚त्",
+          "iast": "tasmā᳚t"
+        },
+        {
+          "idx": 6,
+          "devanagari": "यजु॒स्तस्मा॑दजायत",
+          "iast": "yaju॒stasmā॑dajāyata"
+        }
+      ]
+    },
+    {
+      "number": "3.12.37a",
+      "devanagari": "तस्मा॒दश्वा॑ अजायन्त । ये के चो॑भ॒याद॑तः । गावो॑ ह जज्ञिरे॒ तस्मा᳚त् । तस्मा᳚ज्जा॒ता अ॑जा॒वय॑ः",
+      "iast": "tasmā॒daśvā॑ ajāyanta | ye ke co॑bha॒yāda॑taḥ | gāvo॑ ha jajñire॒ tasmā᳚t | tasmā᳚jjā॒tā a॑jā॒vaya॑ḥ",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तस्मा॒दश्वा॑",
+          "iast": "tasmā॒daśvā॑"
+        },
+        {
+          "idx": 1,
+          "devanagari": "अजायन्त",
+          "iast": "ajāyanta"
+        },
+        {
+          "idx": 2,
+          "devanagari": "ये",
+          "iast": "ye"
+        },
+        {
+          "idx": 3,
+          "devanagari": "के",
+          "iast": "ke"
+        },
+        {
+          "idx": 4,
+          "devanagari": "चो॑भ॒याद॑तः",
+          "iast": "co॑bha॒yāda॑taḥ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "गावो॑",
+          "iast": "gāvo॑"
+        },
+        {
+          "idx": 6,
+          "devanagari": "ह",
+          "iast": "ha"
+        },
+        {
+          "idx": 7,
+          "devanagari": "जज्ञिरे॒",
+          "iast": "jajñire॒"
+        },
+        {
+          "idx": 8,
+          "devanagari": "तस्मा᳚त्",
+          "iast": "tasmā᳚t"
+        },
+        {
+          "idx": 9,
+          "devanagari": "तस्मा᳚ज्जा॒ता",
+          "iast": "tasmā᳚jjā॒tā"
+        },
+        {
+          "idx": 10,
+          "devanagari": "अ॑जा॒वय॑ः",
+          "iast": "a॑jā॒vaya॑ḥ"
+        }
+      ]
+    },
+    {
+      "number": "3.12.37b",
+      "devanagari": "यत्पुरु॑ष॒ं व्य॑दधुः । क॒ति॒धा व्य॑कल्पयन्न् । मुख॒ं किम॑स्य॒ कौ बा॒हू । कावू॒रू पादा॑वुच्येते",
+      "iast": "yatpuru॑ṣa॒ṃ vya॑dadhuḥ | ka॒ti॒dhā vya॑kalpayann | mukha॒ṃ kima॑sya॒ kau bā॒hū | kāvū॒rū pādā॑vucyete",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "यत्पुरु॑ष॒ं",
+          "iast": "yatpuru॑ṣa॒ṃ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "व्य॑दधुः",
+          "iast": "vya॑dadhuḥ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "क॒ति॒धा",
+          "iast": "ka॒ti॒dhā"
+        },
+        {
+          "idx": 3,
+          "devanagari": "व्य॑कल्पयन्न्",
+          "iast": "vya॑kalpayann"
+        },
+        {
+          "idx": 4,
+          "devanagari": "मुख॒ं",
+          "iast": "mukha॒ṃ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "किम॑स्य॒",
+          "iast": "kima॑sya॒"
+        },
+        {
+          "idx": 6,
+          "devanagari": "कौ",
+          "iast": "kau"
+        },
+        {
+          "idx": 7,
+          "devanagari": "बा॒हू",
+          "iast": "bā॒hū"
+        },
+        {
+          "idx": 8,
+          "devanagari": "कावू॒रू",
+          "iast": "kāvū॒rū"
+        },
+        {
+          "idx": 9,
+          "devanagari": "पादा॑वुच्येते",
+          "iast": "pādā॑vucyete"
+        }
+      ]
+    },
+    {
+      "number": "3.12.37c",
+      "devanagari": "ब्रा॒ह्म॒णो᳚ऽस्य मुख॑मासीत् । बा॒हू रा॑ज॒न्य॑ः कृ॒तः । ऊ॒रू तद॑स्य॒ यद्वैश्य॑ः । प॒द्भ्यां शू॒द्रो अ॑जायत",
+      "iast": "brā॒hma॒ṇo᳚'sya mukha॑māsīt | bā॒hū rā॑ja॒nya॑ḥ kṛ॒taḥ | ū॒rū tada॑sya॒ yadvaiśya॑ḥ | pa॒dbhyāṃ śū॒dro a॑jāyata",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "ब्रा॒ह्म॒णो᳚ऽस्य",
+          "iast": "brā॒hma॒ṇo᳚'sya"
+        },
+        {
+          "idx": 1,
+          "devanagari": "मुख॑मासीत्",
+          "iast": "mukha॑māsīt"
+        },
+        {
+          "idx": 2,
+          "devanagari": "बा॒हू",
+          "iast": "bā॒hū"
+        },
+        {
+          "idx": 3,
+          "devanagari": "रा॑ज॒न्य॑ः",
+          "iast": "rā॑ja॒nya॑ḥ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "कृ॒तः",
+          "iast": "kṛ॒taḥ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "ऊ॒रू",
+          "iast": "ū॒rū"
+        },
+        {
+          "idx": 6,
+          "devanagari": "तद॑स्य॒",
+          "iast": "tada॑sya॒"
+        },
+        {
+          "idx": 7,
+          "devanagari": "यद्वैश्य॑ः",
+          "iast": "yadvaiśya॑ḥ"
+        },
+        {
+          "idx": 8,
+          "devanagari": "प॒द्भ्यां",
+          "iast": "pa॒dbhyāṃ"
+        },
+        {
+          "idx": 9,
+          "devanagari": "शू॒द्रो",
+          "iast": "śū॒dro"
+        },
+        {
+          "idx": 10,
+          "devanagari": "अ॑जायत",
+          "iast": "a॑jāyata"
+        }
+      ]
+    },
+    {
+      "number": "3.12.38a",
+      "devanagari": "च॒न्द्रमा॒ मन॑सो जा॒तः । चक्षो॒स्सूर्यो॑ अजायत । मुखा॒दिन्द्र॑श्चा॒ग्निश्च॑ । प्रा॒णाद्वा॒युर॑जायत",
+      "iast": "ca॒ndramā॒ mana॑so jā॒taḥ | cakṣo॒ssūryo॑ ajāyata | mukhā॒dindra॑ścā॒gniśca॑ | prā॒ṇādvā॒yura॑jāyata",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "च॒न्द्रमा॒",
+          "iast": "ca॒ndramā॒"
+        },
+        {
+          "idx": 1,
+          "devanagari": "मन॑सो",
+          "iast": "mana॑so"
+        },
+        {
+          "idx": 2,
+          "devanagari": "जा॒तः",
+          "iast": "jā॒taḥ"
+        },
+        {
+          "idx": 3,
+          "devanagari": "चक्षो॒स्सूर्यो॑",
+          "iast": "cakṣo॒ssūryo॑"
+        },
+        {
+          "idx": 4,
+          "devanagari": "अजायत",
+          "iast": "ajāyata"
+        },
+        {
+          "idx": 5,
+          "devanagari": "मुखा॒दिन्द्र॑श्चा॒ग्निश्च॑",
+          "iast": "mukhā॒dindra॑ścā॒gniśca॑"
+        },
+        {
+          "idx": 6,
+          "devanagari": "प्रा॒णाद्वा॒युर॑जायत",
+          "iast": "prā॒ṇādvā॒yura॑jāyata"
+        }
+      ]
+    },
+    {
+      "number": "3.12.38b",
+      "devanagari": "नाभ्या॑ आसीद॒न्तरि॑क्षम् । शी॒र्ष्णो द्यौस्सम॑वर्तत । प॒द्भ्यां भूमि॒र्दिश॒ः श्रोत्रा᳚त् । तथा॑ लो॒कां अ॑कल्पयन्न्",
+      "iast": "nābhyā॑ āsīda॒ntari॑kṣam | śī॒rṣṇo dyaussama॑vartata | pa॒dbhyāṃ bhūmi॒rdiśa॒ḥ śrotrā᳚t | tathā॑ lo॒kāṃ a॑kalpayann",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "नाभ्या॑",
+          "iast": "nābhyā॑"
+        },
+        {
+          "idx": 1,
+          "devanagari": "आसीद॒न्तरि॑क्षम्",
+          "iast": "āsīda॒ntari॑kṣam"
+        },
+        {
+          "idx": 2,
+          "devanagari": "शी॒र्ष्णो",
+          "iast": "śī॒rṣṇo"
+        },
+        {
+          "idx": 3,
+          "devanagari": "द्यौस्सम॑वर्तत",
+          "iast": "dyaussama॑vartata"
+        },
+        {
+          "idx": 4,
+          "devanagari": "प॒द्भ्यां",
+          "iast": "pa॒dbhyāṃ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "भूमि॒र्दिश॒ः",
+          "iast": "bhūmi॒rdiśa॒ḥ"
+        },
+        {
+          "idx": 6,
+          "devanagari": "श्रोत्रा᳚त्",
+          "iast": "śrotrā᳚t"
+        },
+        {
+          "idx": 7,
+          "devanagari": "तथा॑",
+          "iast": "tathā॑"
+        },
+        {
+          "idx": 8,
+          "devanagari": "लो॒कां",
+          "iast": "lo॒kāṃ"
+        },
+        {
+          "idx": 9,
+          "devanagari": "अ॑कल्पयन्न्",
+          "iast": "a॑kalpayann"
+        }
+      ]
+    },
+    {
+      "number": "3.12.39a",
+      "devanagari": "वेदा॒हमे॒तं पुरु॑षं म॒हान्त᳚म् । आ॒दि॒त्यव॑र्ण॒ं तम॑स॒स्तु पा॒रे । सर्वा॑णि रू॒पाणि॑ वि॒चित्य॒ धीर॑ः । नामा॑नि कृ॒त्वाऽभिव॒दन्, यदास्ते᳚ । धा॒ता पु॒रस्ता॒द्यमु॑दाज॒हार॑ । श॒क्रः प्रवि॒द्वान्प्र॒दिश॒श्चत॑स्रः । तमे॒वं वि॒द्वान॒मृत॑ इ॒ह भ॑वति । नान्यः पन्था॒ अय॑नाय विद्यते",
+      "iast": "vedā॒hame॒taṃ puru॑ṣaṃ ma॒hānta᳚m | ā॒di॒tyava॑rṇa॒ṃ tama॑sa॒stu pā॒re | sarvā॑ṇi rū॒pāṇi॑ vi॒citya॒ dhīra॑ḥ | nāmā॑ni kṛ॒tvā'bhiva॒dan, yadāste᳚ | dhā॒tā pu॒rastā॒dyamu॑dāja॒hāra॑ | śa॒kraḥ pravi॒dvānpra॒diśa॒ścata॑sraḥ | tame॒vaṃ vi॒dvāna॒mṛta॑ i॒ha bha॑vati | nānyaḥ panthā॒ aya॑nāya vidyate",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "वेदा॒हमे॒तं",
+          "iast": "vedā॒hame॒taṃ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "पुरु॑षं",
+          "iast": "puru॑ṣaṃ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "म॒हान्त᳚म्",
+          "iast": "ma॒hānta᳚m"
+        },
+        {
+          "idx": 3,
+          "devanagari": "आ॒दि॒त्यव॑र्ण॒ं",
+          "iast": "ā॒di॒tyava॑rṇa॒ṃ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "तम॑स॒स्तु",
+          "iast": "tama॑sa॒stu"
+        },
+        {
+          "idx": 5,
+          "devanagari": "पा॒रे",
+          "iast": "pā॒re"
+        },
+        {
+          "idx": 6,
+          "devanagari": "सर्वा॑णि",
+          "iast": "sarvā॑ṇi"
+        },
+        {
+          "idx": 7,
+          "devanagari": "रू॒पाणि॑",
+          "iast": "rū॒pāṇi॑"
+        },
+        {
+          "idx": 8,
+          "devanagari": "वि॒चित्य॒",
+          "iast": "vi॒citya॒"
+        },
+        {
+          "idx": 9,
+          "devanagari": "धीर॑ः",
+          "iast": "dhīra॑ḥ"
+        },
+        {
+          "idx": 10,
+          "devanagari": "नामा॑नि",
+          "iast": "nāmā॑ni"
+        },
+        {
+          "idx": 11,
+          "devanagari": "कृ॒त्वाऽभिव॒दन्,",
+          "iast": "kṛ॒tvā'bhiva॒dan,"
+        },
+        {
+          "idx": 12,
+          "devanagari": "यदास्ते᳚",
+          "iast": "yadāste᳚"
+        },
+        {
+          "idx": 13,
+          "devanagari": "धा॒ता",
+          "iast": "dhā॒tā"
+        },
+        {
+          "idx": 14,
+          "devanagari": "पु॒रस्ता॒द्यमु॑दाज॒हार॑",
+          "iast": "pu॒rastā॒dyamu॑dāja॒hāra॑"
+        },
+        {
+          "idx": 15,
+          "devanagari": "श॒क्रः",
+          "iast": "śa॒kraḥ"
+        },
+        {
+          "idx": 16,
+          "devanagari": "प्रवि॒द्वान्प्र॒दिश॒श्चत॑स्रः",
+          "iast": "pravi॒dvānpra॒diśa॒ścata॑sraḥ"
+        },
+        {
+          "idx": 17,
+          "devanagari": "तमे॒वं",
+          "iast": "tame॒vaṃ"
+        },
+        {
+          "idx": 18,
+          "devanagari": "वि॒द्वान॒मृत॑",
+          "iast": "vi॒dvāna॒mṛta॑"
+        },
+        {
+          "idx": 19,
+          "devanagari": "इ॒ह",
+          "iast": "i॒ha"
+        },
+        {
+          "idx": 20,
+          "devanagari": "भ॑वति",
+          "iast": "bha॑vati"
+        },
+        {
+          "idx": 21,
+          "devanagari": "नान्यः",
+          "iast": "nānyaḥ"
+        },
+        {
+          "idx": 22,
+          "devanagari": "पन्था॒",
+          "iast": "panthā॒"
+        },
+        {
+          "idx": 23,
+          "devanagari": "अय॑नाय",
+          "iast": "aya॑nāya"
+        },
+        {
+          "idx": 24,
+          "devanagari": "विद्यते",
+          "iast": "vidyate"
+        }
+      ]
+    },
+    {
+      "number": "3.12.39b",
+      "devanagari": "य॒ज्ञेन॑ य॒ज्ञम॑यजन्त दे॒वाः । तानि॒ धर्मा॑णि प्रथ॒मान्या॑सन् । ते ह॒ नाक॑ं महि॒मान॑स्सचन्ते । यत्र॒ पूर्वे॑ सा॒ध्यास्सन्ति॑ दे॒वाः",
+      "iast": "ya॒jñena॑ ya॒jñama॑yajanta de॒vāḥ | tāni॒ dharmā॑ṇi pratha॒mānyā॑san | te ha॒ nāka॑ṃ mahi॒māna॑ssacante | yatra॒ pūrve॑ sā॒dhyāssanti॑ de॒vāḥ",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "य॒ज्ञेन॑",
+          "iast": "ya॒jñena॑"
+        },
+        {
+          "idx": 1,
+          "devanagari": "य॒ज्ञम॑यजन्त",
+          "iast": "ya॒jñama॑yajanta"
+        },
+        {
+          "idx": 2,
+          "devanagari": "दे॒वाः",
+          "iast": "de॒vāḥ"
+        },
+        {
+          "idx": 3,
+          "devanagari": "तानि॒",
+          "iast": "tāni॒"
+        },
+        {
+          "idx": 4,
+          "devanagari": "धर्मा॑णि",
+          "iast": "dharmā॑ṇi"
+        },
+        {
+          "idx": 5,
+          "devanagari": "प्रथ॒मान्या॑सन्",
+          "iast": "pratha॒mānyā॑san"
+        },
+        {
+          "idx": 6,
+          "devanagari": "ते",
+          "iast": "te"
+        },
+        {
+          "idx": 7,
+          "devanagari": "ह॒",
+          "iast": "ha॒"
+        },
+        {
+          "idx": 8,
+          "devanagari": "नाक॑ं",
+          "iast": "nāka॑ṃ"
+        },
+        {
+          "idx": 9,
+          "devanagari": "महि॒मान॑स्सचन्ते",
+          "iast": "mahi॒māna॑ssacante"
+        },
+        {
+          "idx": 10,
+          "devanagari": "यत्र॒",
+          "iast": "yatra॒"
+        },
+        {
+          "idx": 11,
+          "devanagari": "पूर्वे॑",
+          "iast": "pūrve॑"
+        },
+        {
+          "idx": 12,
+          "devanagari": "सा॒ध्यास्सन्ति॑",
+          "iast": "sā॒dhyāssanti॑"
+        },
+        {
+          "idx": 13,
+          "devanagari": "दे॒वाः",
+          "iast": "de॒vāḥ"
+        }
+      ]
+    },
+    {
+      "number": "3.13.40",
+      "devanagari": "अ॒द्भ्यस्संभू॑तः पृथि॒व्यै रसा᳚च्च । वि॒श्वक॑र्मण॒ः सम॑वर्त॒ताधि॑ । तस्य॒ त्वष्टा॑ वि॒दध॑द्रू॒पमे॑ति । तत्पुरु॑षस्य॒ विश्व॒माजा॑न॒मग्रे᳚ । वेदा॒हमे॒तं पुरु॑षं म॒हान्त᳚म् । आ॒दि॒त्यव॑र्ण॒ं तम॑स॒ः पर॑स्तात् । तमे॒वं वि॒द्वान॒मृत॑ इ॒ह भ॑वति । नान्यः पन्था॑ विद्य॒तेऽयना॑य । प्र॒जाप॑तिश्चरति॒ गर्भे॑ अ॒न्तः । अ॒जाय॑मानो बहु॒धा विजा॑यते",
+      "iast": "a॒dbhyassaṃbhū॑taḥ pṛthi॒vyai rasā᳚cca | vi॒śvaka॑rmaṇa॒ḥ sama॑varta॒tādhi॑ | tasya॒ tvaṣṭā॑ vi॒dadha॑drū॒pame॑ti | tatpuru॑ṣasya॒ viśva॒mājā॑na॒magre᳚ | vedā॒hame॒taṃ puru॑ṣaṃ ma॒hānta᳚m | ā॒di॒tyava॑rṇa॒ṃ tama॑sa॒ḥ para॑stāt | tame॒vaṃ vi॒dvāna॒mṛta॑ i॒ha bha॑vati | nānyaḥ panthā॑ vidya॒te'yanā॑ya | pra॒jāpa॑tiścarati॒ garbhe॑ a॒ntaḥ | a॒jāya॑māno bahu॒dhā vijā॑yate",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "अ॒द्भ्यस्संभू॑तः",
+          "iast": "a॒dbhyassaṃbhū॑taḥ"
+        },
+        {
+          "idx": 1,
+          "devanagari": "पृथि॒व्यै",
+          "iast": "pṛthi॒vyai"
+        },
+        {
+          "idx": 2,
+          "devanagari": "रसा᳚च्च",
+          "iast": "rasā᳚cca"
+        },
+        {
+          "idx": 3,
+          "devanagari": "वि॒श्वक॑र्मण॒ः",
+          "iast": "vi॒śvaka॑rmaṇa॒ḥ"
+        },
+        {
+          "idx": 4,
+          "devanagari": "सम॑वर्त॒ताधि॑",
+          "iast": "sama॑varta॒tādhi॑"
+        },
+        {
+          "idx": 5,
+          "devanagari": "तस्य॒",
+          "iast": "tasya॒"
+        },
+        {
+          "idx": 6,
+          "devanagari": "त्वष्टा॑",
+          "iast": "tvaṣṭā॑"
+        },
+        {
+          "idx": 7,
+          "devanagari": "वि॒दध॑द्रू॒पमे॑ति",
+          "iast": "vi॒dadha॑drū॒pame॑ti"
+        },
+        {
+          "idx": 8,
+          "devanagari": "तत्पुरु॑षस्य॒",
+          "iast": "tatpuru॑ṣasya॒"
+        },
+        {
+          "idx": 9,
+          "devanagari": "विश्व॒माजा॑न॒मग्रे᳚",
+          "iast": "viśva॒mājā॑na॒magre᳚"
+        },
+        {
+          "idx": 10,
+          "devanagari": "वेदा॒हमे॒तं",
+          "iast": "vedā॒hame॒taṃ"
+        },
+        {
+          "idx": 11,
+          "devanagari": "पुरु॑षं",
+          "iast": "puru॑ṣaṃ"
+        },
+        {
+          "idx": 12,
+          "devanagari": "म॒हान्त᳚म्",
+          "iast": "ma॒hānta᳚m"
+        },
+        {
+          "idx": 13,
+          "devanagari": "आ॒दि॒त्यव॑र्ण॒ं",
+          "iast": "ā॒di॒tyava॑rṇa॒ṃ"
+        },
+        {
+          "idx": 14,
+          "devanagari": "तम॑स॒ः",
+          "iast": "tama॑sa॒ḥ"
+        },
+        {
+          "idx": 15,
+          "devanagari": "पर॑स्तात्",
+          "iast": "para॑stāt"
+        },
+        {
+          "idx": 16,
+          "devanagari": "तमे॒वं",
+          "iast": "tame॒vaṃ"
+        },
+        {
+          "idx": 17,
+          "devanagari": "वि॒द्वान॒मृत॑",
+          "iast": "vi॒dvāna॒mṛta॑"
+        },
+        {
+          "idx": 18,
+          "devanagari": "इ॒ह",
+          "iast": "i॒ha"
+        },
+        {
+          "idx": 19,
+          "devanagari": "भ॑वति",
+          "iast": "bha॑vati"
+        },
+        {
+          "idx": 20,
+          "devanagari": "नान्यः",
+          "iast": "nānyaḥ"
+        },
+        {
+          "idx": 21,
+          "devanagari": "पन्था॑",
+          "iast": "panthā॑"
+        },
+        {
+          "idx": 22,
+          "devanagari": "विद्य॒तेऽयना॑य",
+          "iast": "vidya॒te'yanā॑ya"
+        },
+        {
+          "idx": 23,
+          "devanagari": "प्र॒जाप॑तिश्चरति॒",
+          "iast": "pra॒jāpa॑tiścarati॒"
+        },
+        {
+          "idx": 24,
+          "devanagari": "गर्भे॑",
+          "iast": "garbhe॑"
+        },
+        {
+          "idx": 25,
+          "devanagari": "अ॒न्तः",
+          "iast": "a॒ntaḥ"
+        },
+        {
+          "idx": 26,
+          "devanagari": "अ॒जाय॑मानो",
+          "iast": "a॒jāya॑māno"
+        },
+        {
+          "idx": 27,
+          "devanagari": "बहु॒धा",
+          "iast": "bahu॒dhā"
+        },
+        {
+          "idx": 28,
+          "devanagari": "विजा॑यते",
+          "iast": "vijā॑yate"
+        }
+      ]
+    },
+    {
+      "number": "3.13.41",
+      "devanagari": "तस्य॒ धीरा॒ः परि॑जानन्ति॒ योनि᳚म् । मरी॑चीनां प॒दमि॑च्छन्ति वे॒धस॑ः । यो दे॒वेभ्य॒ आत॑पति । यो दे॒वाना᳚ं पु॒रोहि॑तः । पूर्वो॒ यो दे॒वेभ्यो॑ जा॒तः । नमो॑ रु॒चाय॒ ब्राह्म॑ये । रुच॑ं ब्रा॒ह्मं ज॒नय॑न्तः । दे॒वा अग्रे॒ तद॑ब्रुवन्न् । यस्त्वै॒वं ब्रा᳚ह्म॒णो वि॒द्यात् । तस्य॑ दे॒वा अस॒न्वशे᳚ । ह्रीश्च॑ ते ल॒क्ष्मीश्च॒ पत्न्यौ᳚ । अ॒हो॒रा॒त्रे पा॒र्श्वे । नक्ष॑त्राणि रू॒पम् । अ॒श्विनौ॒ व्यात्त᳚म् । इ॒ष्टं म॑निषाण । अ॒मुं म॑निषाण । सर्व॑ं मनिषाण",
+      "iast": "tasya॒ dhīrā॒ḥ pari॑jānanti॒ yoni᳚m | marī॑cīnāṃ pa॒dami॑cchanti ve॒dhasa॑ḥ | yo de॒vebhya॒ āta॑pati | yo de॒vānā᳚ṃ pu॒rohi॑taḥ | pūrvo॒ yo de॒vebhyo॑ jā॒taḥ | namo॑ ru॒cāya॒ brāhma॑ye | ruca॑ṃ brā॒hmaṃ ja॒naya॑ntaḥ | de॒vā agre॒ tada॑bruvann | yastvai॒vaṃ brā᳚hma॒ṇo vi॒dyāt | tasya॑ de॒vā asa॒nvaśe᳚ | hrīśca॑ te la॒kṣmīśca॒ patnyau᳚ | a॒ho॒rā॒tre pā॒rśve | nakṣa॑trāṇi rū॒pam | a॒śvinau॒ vyātta᳚m | i॒ṣṭaṃ ma॑niṣāṇa | a॒muṃ ma॑niṣāṇa | sarva॑ṃ maniṣāṇa",
+      "tokens": [
+        {
+          "idx": 0,
+          "devanagari": "तस्य॒",
+          "iast": "tasya॒"
+        },
+        {
+          "idx": 1,
+          "devanagari": "धीरा॒ः",
+          "iast": "dhīrā॒ḥ"
+        },
+        {
+          "idx": 2,
+          "devanagari": "परि॑जानन्ति॒",
+          "iast": "pari॑jānanti॒"
+        },
+        {
+          "idx": 3,
+          "devanagari": "योनि᳚म्",
+          "iast": "yoni᳚m"
+        },
+        {
+          "idx": 4,
+          "devanagari": "मरी॑चीनां",
+          "iast": "marī॑cīnāṃ"
+        },
+        {
+          "idx": 5,
+          "devanagari": "प॒दमि॑च्छन्ति",
+          "iast": "pa॒dami॑cchanti"
+        },
+        {
+          "idx": 6,
+          "devanagari": "वे॒धस॑ः",
+          "iast": "ve॒dhasa॑ḥ"
+        },
+        {
+          "idx": 7,
+          "devanagari": "यो",
+          "iast": "yo"
+        },
+        {
+          "idx": 8,
+          "devanagari": "दे॒वेभ्य॒",
+          "iast": "de॒vebhya॒"
+        },
+        {
+          "idx": 9,
+          "devanagari": "आत॑पति",
+          "iast": "āta॑pati"
+        },
+        {
+          "idx": 10,
+          "devanagari": "यो",
+          "iast": "yo"
+        },
+        {
+          "idx": 11,
+          "devanagari": "दे॒वाना᳚ं",
+          "iast": "de॒vānā᳚ṃ"
+        },
+        {
+          "idx": 12,
+          "devanagari": "पु॒रोहि॑तः",
+          "iast": "pu॒rohi॑taḥ"
+        },
+        {
+          "idx": 13,
+          "devanagari": "पूर्वो॒",
+          "iast": "pūrvo॒"
+        },
+        {
+          "idx": 14,
+          "devanagari": "यो",
+          "iast": "yo"
+        },
+        {
+          "idx": 15,
+          "devanagari": "दे॒वेभ्यो॑",
+          "iast": "de॒vebhyo॑"
+        },
+        {
+          "idx": 16,
+          "devanagari": "जा॒तः",
+          "iast": "jā॒taḥ"
+        },
+        {
+          "idx": 17,
+          "devanagari": "नमो॑",
+          "iast": "namo॑"
+        },
+        {
+          "idx": 18,
+          "devanagari": "रु॒चाय॒",
+          "iast": "ru॒cāya॒"
+        },
+        {
+          "idx": 19,
+          "devanagari": "ब्राह्म॑ये",
+          "iast": "brāhma॑ye"
+        },
+        {
+          "idx": 20,
+          "devanagari": "रुच॑ं",
+          "iast": "ruca॑ṃ"
+        },
+        {
+          "idx": 21,
+          "devanagari": "ब्रा॒ह्मं",
+          "iast": "brā॒hmaṃ"
+        },
+        {
+          "idx": 22,
+          "devanagari": "ज॒नय॑न्तः",
+          "iast": "ja॒naya॑ntaḥ"
+        },
+        {
+          "idx": 23,
+          "devanagari": "दे॒वा",
+          "iast": "de॒vā"
+        },
+        {
+          "idx": 24,
+          "devanagari": "अग्रे॒",
+          "iast": "agre॒"
+        },
+        {
+          "idx": 25,
+          "devanagari": "तद॑ब्रुवन्न्",
+          "iast": "tada॑bruvann"
+        },
+        {
+          "idx": 26,
+          "devanagari": "यस्त्वै॒वं",
+          "iast": "yastvai॒vaṃ"
+        },
+        {
+          "idx": 27,
+          "devanagari": "ब्रा᳚ह्म॒णो",
+          "iast": "brā᳚hma॒ṇo"
+        },
+        {
+          "idx": 28,
+          "devanagari": "वि॒द्यात्",
+          "iast": "vi॒dyāt"
+        },
+        {
+          "idx": 29,
+          "devanagari": "तस्य॑",
+          "iast": "tasya॑"
+        },
+        {
+          "idx": 30,
+          "devanagari": "दे॒वा",
+          "iast": "de॒vā"
+        },
+        {
+          "idx": 31,
+          "devanagari": "अस॒न्वशे᳚",
+          "iast": "asa॒nvaśe᳚"
+        },
+        {
+          "idx": 32,
+          "devanagari": "ह्रीश्च॑",
+          "iast": "hrīśca॑"
+        },
+        {
+          "idx": 33,
+          "devanagari": "ते",
+          "iast": "te"
+        },
+        {
+          "idx": 34,
+          "devanagari": "ल॒क्ष्मीश्च॒",
+          "iast": "la॒kṣmīśca॒"
+        },
+        {
+          "idx": 35,
+          "devanagari": "पत्न्यौ᳚",
+          "iast": "patnyau᳚"
+        },
+        {
+          "idx": 36,
+          "devanagari": "अ॒हो॒रा॒त्रे",
+          "iast": "a॒ho॒rā॒tre"
+        },
+        {
+          "idx": 37,
+          "devanagari": "पा॒र्श्वे",
+          "iast": "pā॒rśve"
+        },
+        {
+          "idx": 38,
+          "devanagari": "नक्ष॑त्राणि",
+          "iast": "nakṣa॑trāṇi"
+        },
+        {
+          "idx": 39,
+          "devanagari": "रू॒पम्",
+          "iast": "rū॒pam"
+        },
+        {
+          "idx": 40,
+          "devanagari": "अ॒श्विनौ॒",
+          "iast": "a॒śvinau॒"
+        },
+        {
+          "idx": 41,
+          "devanagari": "व्यात्त᳚म्",
+          "iast": "vyātta᳚m"
+        },
+        {
+          "idx": 42,
+          "devanagari": "इ॒ष्टं",
+          "iast": "i॒ṣṭaṃ"
+        },
+        {
+          "idx": 43,
+          "devanagari": "म॑निषाण",
+          "iast": "ma॑niṣāṇa"
+        },
+        {
+          "idx": 44,
+          "devanagari": "अ॒मुं",
+          "iast": "a॒muṃ"
+        },
+        {
+          "idx": 45,
+          "devanagari": "म॑निषाण",
+          "iast": "ma॑niṣāṇa"
+        },
+        {
+          "idx": 46,
+          "devanagari": "सर्व॑ं",
+          "iast": "sarva॑ṃ"
+        },
+        {
+          "idx": 47,
+          "devanagari": "मनिषाण",
+          "iast": "maniṣāṇa"
+        }
+      ]
+    }
+  ]
+}

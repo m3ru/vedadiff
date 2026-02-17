@@ -1,0 +1,27 @@
+{
+  "id": "purusha-suktam",
+  "title": "Purusha Sūktam — Cross-recension Comparison",
+  "left": {"source": "rv10-090", "label": "Ṛg Veda 10.90"},
+  "right": {"source": "ta3-012", "label": "Taittirīya Āraṇyaka 3.12–13"},
+  "pairs": [
+    {"left": "10.90.1",  "right": "3.12.33a"},
+    {"left": "10.90.2",  "right": "3.12.33b"},
+    {"left": "10.90.3",  "right": "3.12.33c"},
+    {"left": "10.90.4",  "right": "3.12.34a"},
+    {"left": "10.90.5",  "right": "3.12.34b"},
+    {"left": "10.90.6",  "right": "3.12.35a"},
+    {"left": "10.90.15", "right": "3.12.35b", "note": "RV 15 reordered in TA"},
+    {"left": "10.90.7",  "right": "3.12.35c"},
+    {"left": "10.90.8",  "right": "3.12.36a"},
+    {"left": "10.90.9",  "right": "3.12.36b"},
+    {"left": "10.90.10", "right": "3.12.37a"},
+    {"left": "10.90.11", "right": "3.12.37b"},
+    {"left": "10.90.12", "right": "3.12.37c"},
+    {"left": "10.90.13", "right": "3.12.38a"},
+    {"left": "10.90.14", "right": "3.12.38b"},
+    {"left": null, "right": "3.12.39a", "note": "vedāhametam section, not in RV"},
+    {"left": "10.90.16", "right": "3.12.39b"},
+    {"left": null, "right": "3.13.40", "note": "Uttara-nārāyaṇa, not in RV"},
+    {"left": null, "right": "3.13.41", "note": "Uttara-nārāyaṇa, not in RV"}
+  ]
+}
