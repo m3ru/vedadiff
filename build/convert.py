@@ -28,6 +28,7 @@ SOURCE_DIR = Path(__file__).resolve().parent.parent.parent  # /home/meru/hw/veda
 
 RV_FILE = SOURCE_DIR / "r10.itx"
 TA_FILE = SOURCE_DIR / "taittirIyaAraNyaka.itx"
+TS_FILE = Path("/Users/meru/kainkaryam/taitsamhita1.itx")
 OUTPUT_DIR = DATA_DIR / "processed"
 
 # ---------------------------------------------------------------------------
@@ -297,7 +298,119 @@ def build_verse(verse_number: str, raw_itrans: str) -> dict:
 
 
 # ===================================================================
-# 6. RV 10.90 parser
+# 6. Generic ITX parser
+# ===================================================================
+
+def extract_metadata(filepath: Path) -> tuple[str, str]:
+    """Extract title from ITX file header comments.
+
+    Returns (id, title) where id is derived from filename.
+    """
+    text = filepath.read_text(encoding='utf-8')
+    lines = text.split('\n')
+
+    # Extract title from "% Text title : ..." line
+    title = None
+    for line in lines[:50]:  # Check first 50 lines
+        if line.strip().startswith('% Text title'):
+            parts = line.split(':', 1)
+            if len(parts) == 2:
+                title = parts[1].strip()
+                break
+
+    # Generate id from filename (remove .itx extension)
+    file_id = filepath.stem
+
+    # Use filename as title if not found in header
+    if not title:
+        title = file_id.replace('-', ' ').replace('_', ' ').title()
+
+    return file_id, title
+
+
+def parse_itx(filepath: Path) -> list[tuple[str, str]]:
+    """Generic parser for ITX files from sanskritdocuments.org.
+
+    Extracts all verses marked with || N| N| N|| pattern.
+    Returns list of (label, text) tuples where label is derived from marker numbers.
+    """
+    text = filepath.read_text(encoding='utf-8')
+    lines = text.split('\n')
+
+    # Match any verse marker: || N| N| N|| (handles 1-4 number groups)
+    marker_re = re.compile(r'\|\|\s*(\d+)\s*\|\s*(\d+)\s*\|\s*(\d+)(?:\s*\|\s*(\d+))?\s*\|\|')
+
+    verses: list[tuple[str, str]] = []
+    buf: list[str] = []
+    in_content = False
+
+    for line in lines:
+        # Skip LaTeX preamble and metadata
+        if line.strip().startswith('%') or line.strip().startswith('\\') and not in_content:
+            # Check if we're starting actual content
+            if '\\section{' in line or '\\chapter{' in line:
+                in_content = True
+            continue
+
+        # Check for verse marker
+        m = marker_re.search(line)
+        if m:
+            in_content = True
+
+            # Include content before the marker on this line
+            before = line[:m.start()].strip()
+            if before:
+                buf.append(before)
+
+            # Build label from marker numbers (e.g., || 1| 2| 3|| → "1.2.3")
+            numbers = [m.group(i) for i in range(1, 5) if m.group(i)]
+            label = '.'.join(numbers)
+
+            # Save this verse
+            verse_text = ' '.join(buf).strip()
+            if verse_text:
+                verses.append((label, verse_text))
+
+            buf = []
+        elif in_content:
+            # Collect content
+            s = line.strip()
+            # Skip LaTeX commands within content
+            if s and not s.startswith('\\') and not s.startswith('%'):
+                buf.append(s)
+
+    # Clean up the text and deduplicate
+    seen_labels: set[str] = set()
+    cleaned_verses: list[tuple[str, str]] = []
+
+    for label, txt in verses:
+        # Skip duplicates (some files contain text twice)
+        if label in seen_labels:
+            continue
+        seen_labels.add(label)
+
+        # Remove {m+} → M (anusvara)
+        txt = txt.replace('{\\m+}', 'M')
+        txt = txt.replace('{m+}', 'M')
+        # Remove parenthetical comments like (4)
+        txt = re.sub(r'\(\d+\)', '', txt)
+        # Remove general parenthetical comments
+        txt = re.sub(r'\([^)]*\)', '', txt)
+        # Remove internal markers (like verse names, counts)
+        txt = re.sub(r'\|\|[^|]*\|\|', '', txt)
+        # Remove numbering at start (like "1 ", "2 ")
+        txt = re.sub(r'\b\d+\s+', ' ', txt)
+        # Clean up whitespace
+        txt = ' '.join(txt.split())
+
+        if txt:  # Only add non-empty verses
+            cleaned_verses.append((label, txt))
+
+    return cleaned_verses
+
+
+# ===================================================================
+# 7. Legacy parsers (for backward compatibility)
 # ===================================================================
 
 def parse_rv(filepath: Path) -> list[tuple[str, str]]:
@@ -475,7 +588,131 @@ def parse_ta(filepath: Path) -> list[tuple[str, str]]:
 
 
 # ===================================================================
-# 8. Conversion
+# 8. TS parser
+# ===================================================================
+
+def parse_ts(filepath: Path) -> list[tuple[str, str]]:
+    """Parse Taittiriya Samhita 1.1.1-14 (first prasna, first 14 anuvakas)."""
+    text = filepath.read_text(encoding='utf-8')
+    lines = text.split('\n')
+
+    # Marker format: || 1| 1| N|| where N is anuvaka number
+    marker_re = re.compile(r'\|\|\s*1\|\s*1\|\s*(\d+)\|\|')
+
+    # Find the start of actual content (after headers)
+    start_idx = 0
+    for i, line in enumerate(lines):
+        if r'\section{prathamakANDe prathamaH prashnaH 1}' in line:
+            start_idx = i + 1
+            break
+
+    verses: list[tuple[str, str]] = []
+    buf: list[str] = []
+    in_target_section = False
+
+    for line in lines[start_idx:]:
+        # Check for anuvaka marker
+        m = marker_re.search(line)
+        if m:
+            anuvaka_num = int(m.group(1))
+
+            # Include content before the marker on this line
+            before = line[:m.start()].strip()
+            if before:
+                buf.append(before)
+
+            # Save this anuvaka
+            if 1 <= anuvaka_num <= 14:
+                verse_text = ' '.join(buf).strip()
+                if verse_text:
+                    verses.append((f"1.1.{anuvaka_num}", verse_text))
+                in_target_section = True
+                buf = []
+            elif anuvaka_num > 14:
+                # We're past our target section
+                break
+        elif in_target_section or not verses:
+            # Collect content until we hit a marker
+            s = line.strip()
+            # Skip LaTeX commands and section markers
+            if s and not s.startswith('\\') and not s.startswith('%'):
+                buf.append(s)
+
+    # Clean up the text and deduplicate
+    seen_labels: set[str] = set()
+    cleaned_verses: list[tuple[str, str]] = []
+
+    for label, txt in verses:
+        # Skip duplicates (file contains text twice)
+        if label in seen_labels:
+            continue
+        seen_labels.add(label)
+
+        # Remove {m+} → M (anusvara)
+        txt = txt.replace('{\\m+}', 'M')
+        txt = txt.replace('{m+}', 'M')
+        # Remove parenthetical comments like (4)
+        txt = re.sub(r'\(\d+\)', '', txt)
+        # Remove general parenthetical comments
+        txt = re.sub(r'\([^)]*\)', '', txt)
+        # Remove internal markers (like verse names, counts)
+        txt = re.sub(r'\|\|[^|]*\|\|', '', txt)
+        # Remove numbering at start (like "1 ", "2 ")
+        txt = re.sub(r'\b\d+\s+', ' ', txt)
+        # Clean up whitespace
+        txt = ' '.join(txt.split())
+        cleaned_verses.append((label, txt))
+
+    return cleaned_verses
+
+
+# ===================================================================
+# 9. Generic Conversion
+# ===================================================================
+
+def convert_itx(filepath: Path, output_dir: Path = OUTPUT_DIR) -> None:
+    """Convert any ITX file to JSON format.
+
+    Args:
+        filepath: Path to the .itx file
+        output_dir: Directory to write the JSON output
+    """
+    print(f"Processing {filepath.name}...")
+
+    # Extract metadata
+    file_id, title = extract_metadata(filepath)
+
+    # Parse verses
+    verses = parse_itx(filepath)
+    print(f"  Parsed {len(verses)} verses")
+
+    # Build verse JSON objects
+    vjs = []
+    for label, raw in verses:
+        vj = build_verse(label, raw)
+        vjs.append(vj)
+        if len(vj['tokens']) > 0:
+            print(f"  {label}: {len(vj['tokens'])} tokens — {vj['tokens'][0]['devanagari']}…")
+        else:
+            print(f"  {label}: {len(vj['tokens'])} tokens")
+
+    # Create output JSON
+    out = {
+        "id": file_id,
+        "title": title,
+        "source": "SanskritDocuments.org",
+        "verses": vjs,
+    }
+
+    # Write to file
+    output_path = output_dir / f"{file_id}.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f"  Wrote {output_path}\n")
+
+
+# ===================================================================
+# 10. Legacy Conversion Functions
 # ===================================================================
 
 def convert_rv():
@@ -520,8 +757,29 @@ def convert_ta():
     print(f"Wrote {p}")
 
 
+def convert_ts():
+    verses = parse_ts(TS_FILE)
+    print(f"Parsed {len(verses)} TS verses")
+    vjs = []
+    for label, raw in verses:
+        vj = build_verse(label, raw)
+        vjs.append(vj)
+        print(f"  {label}: {len(vj['tokens'])} tokens — {vj['tokens'][0]['devanagari']}…")
+
+    out = {
+        "id": "ts1-001",
+        "title": "Taittirīya Saṃhitā 1.1 (Kāṇḍa 1, Prapāṭhaka 1)",
+        "source": "SanskritDocuments.org",
+        "verses": vjs,
+    }
+    p = OUTPUT_DIR / "ts1-001.json"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f"Wrote {p}")
+
+
 # ===================================================================
-# 9. Tests
+# 11. Tests
 # ===================================================================
 
 def run_tests():
@@ -581,9 +839,34 @@ def main():
     if '--test' in sys.argv:
         ok = run_tests()
         sys.exit(0 if ok else 1)
+
+    # Get ITX files to process
+    if len(sys.argv) > 1 and sys.argv[1] != '--test':
+        # Process specific files from command line
+        itx_files = [Path(arg) for arg in sys.argv[1:] if arg.endswith('.itx')]
     else:
-        convert_rv()
-        convert_ta()
+        # Process all ITX files in kainkaryam directory
+        kainkaryam_dir = Path('/Users/meru/kainkaryam')
+        itx_files = list(kainkaryam_dir.glob('*.itx'))
+
+    if not itx_files:
+        print("No ITX files found. Usage:")
+        print("  python3 convert.py                    # Process all .itx files in /Users/meru/kainkaryam/")
+        print("  python3 convert.py file1.itx file2.itx  # Process specific files")
+        sys.exit(1)
+
+    print(f"Found {len(itx_files)} ITX file(s) to process\n")
+
+    # Convert each file
+    for itx_file in itx_files:
+        try:
+            convert_itx(itx_file)
+        except Exception as e:
+            print(f"  Error processing {itx_file.name}: {e}\n")
+            import traceback
+            traceback.print_exc()
+
+    print("Done!")
 
 
 if __name__ == '__main__':
