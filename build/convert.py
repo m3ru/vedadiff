@@ -463,6 +463,61 @@ def parse_rv(filepath: Path) -> list[tuple[str, str]]:
 
 
 # ===================================================================
+# 7b. Full Ṛg Veda Mandala 10 parser
+# ===================================================================
+
+def parse_r10(filepath: Path) -> list[tuple[str, str]]:
+    """Parse all verses from r10.itx (Ṛg Veda Mandala 10).
+
+    Marker format: || 10\\.001\\.01  (backslash-escaped dots, at end of line)
+    Returns list of (label, text) tuples, e.g. ("10.1.1", raw_itrans).
+    """
+    text = filepath.read_text(encoding='utf-8')
+    lines = text.split('\n')
+
+    marker_re = re.compile(r'\|\|\s*10\\\.(\d+)\\\.(\d+)')
+
+    verses: list[tuple[str, str]] = []
+    buf: list[str] = []
+    in_content = False
+
+    for line in lines:
+        m = marker_re.search(line)
+        if m:
+            in_content = True
+            sukta = int(m.group(1))
+            verse = int(m.group(2))
+            label = f"10.{sukta}.{verse}"
+
+            before = line[:m.start()].strip()
+            if before:
+                buf.append(before)
+
+            verse_text = ' '.join(buf).strip()
+            if verse_text:
+                verses.append((label, verse_text))
+            buf = []
+        elif in_content:
+            s = line.strip()
+            if s and not s.startswith('%') and not s.startswith('\\') and '##' not in s:
+                buf.append(s)
+
+    # Clean up
+    cleaned: list[tuple[str, str]] = []
+    for label, txt in verses:
+        txt = txt.replace('{\\m+}', 'M').replace('{m+}', 'M')
+        txt = re.sub(r'\([^)]*\)', '', txt)
+        txt = re.sub(r'\|\|[^|]*\|\|', '', txt)
+        # Strip inline digits (pluta markers like o3, A3 and svara numbers like tva1)
+        txt = re.sub(r'(?<=[a-zA-Z.\\])\d+', '', txt)
+        txt = ' '.join(txt.split())
+        if txt:
+            cleaned.append((label, txt))
+
+    return cleaned
+
+
+# ===================================================================
 # 7. TA 3.12–13 parser
 # ===================================================================
 
@@ -682,8 +737,12 @@ def convert_itx(filepath: Path, output_dir: Path = OUTPUT_DIR) -> None:
     # Extract metadata
     file_id, title = extract_metadata(filepath)
 
-    # Parse verses
-    verses = parse_itx(filepath)
+    # Parse verses — dispatch to specialized parser for r10.itx
+    if filepath.name == 'r10.itx':
+        verses = parse_r10(filepath)
+        title = "Ṛg Veda Maṇḍala 10"
+    else:
+        verses = parse_itx(filepath)
     print(f"  Parsed {len(verses)} verses")
 
     # Build verse JSON objects
