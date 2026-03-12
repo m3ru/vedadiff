@@ -463,19 +463,33 @@ def parse_rv(filepath: Path) -> list[tuple[str, str]]:
 
 
 # ===================================================================
-# 7b. Full Ṛg Veda Mandala 10 parser
+# 7b. Rigveda dot-format parser (any mandala)
 # ===================================================================
 
-def parse_r10(filepath: Path) -> list[tuple[str, str]]:
-    """Parse all verses from r10.itx (Ṛg Veda Mandala 10).
+_DOT_RE  = re.compile(r'\|\|\s*\d+\\\.(\d+)\\\.(\d+)')
+_PIPE_RE = re.compile(r'\|\|\s*\d+\s*\|\s*\d+\s*\|\s*\d+')
 
-    Marker format: || 10\\.001\\.01  (backslash-escaped dots, at end of line)
+
+def _detect_paradigm(filepath: Path) -> str:
+    """Return 'dot' or 'pipe' based on which marker pattern appears first in the file."""
+    text = filepath.read_text(encoding='utf-8')
+    dot  = _DOT_RE.search(text)
+    pipe = _PIPE_RE.search(text)
+    if dot and (not pipe or dot.start() < pipe.start()):
+        return 'dot'
+    return 'pipe'
+
+
+def parse_rv_dot(filepath: Path) -> list[tuple[str, str]]:
+    """Parse Rigveda ITX files using dot-separated markers.
+
+    Marker format: || M\\.SSS\\.VV  (backslash-escaped dots, at end of line)
     Returns list of (label, text) tuples, e.g. ("10.1.1", raw_itrans).
     """
     text = filepath.read_text(encoding='utf-8')
     lines = text.split('\n')
 
-    marker_re = re.compile(r'\|\|\s*10\\\.(\d+)\\\.(\d+)')
+    marker_re = re.compile(r'\|\|\s*(\d+)\\\.(\d+)\\\.(\d+)')
 
     verses: list[tuple[str, str]] = []
     buf: list[str] = []
@@ -485,9 +499,7 @@ def parse_r10(filepath: Path) -> list[tuple[str, str]]:
         m = marker_re.search(line)
         if m:
             in_content = True
-            sukta = int(m.group(1))
-            verse = int(m.group(2))
-            label = f"10.{sukta}.{verse}"
+            label = f"{int(m.group(1))}.{int(m.group(2))}.{int(m.group(3))}"
 
             before = line[:m.start()].strip()
             if before:
@@ -737,10 +749,9 @@ def convert_itx(filepath: Path, output_dir: Path = OUTPUT_DIR) -> None:
     # Extract metadata
     file_id, title = extract_metadata(filepath)
 
-    # Parse verses — dispatch to specialized parser for r10.itx
-    if filepath.name == 'r10.itx':
-        verses = parse_r10(filepath)
-        title = "Ṛg Veda Maṇḍala 10"
+    # Parse verses — auto-detect marker paradigm
+    if _detect_paradigm(filepath) == 'dot':
+        verses = parse_rv_dot(filepath)
     else:
         verses = parse_itx(filepath)
     print(f"  Parsed {len(verses)} verses")
